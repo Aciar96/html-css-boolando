@@ -1,0 +1,101 @@
+/* reset*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    padding-top:  120px; 
+}
+
+li{
+    list-style-type: none;
+    padding: 5px;
+}
+a{
+    text-decoration: none;
+    color:#ffff ;
+}
+#img-logo{
+    height: 30px;
+    width: auto;
+}
+img{
+    height: 400px;
+    width: 100%;
+    padding-right: 10px;
+    padding-bottom: 50px;
+    
+}
+nav{
+    justify-content: space-between;
+    padding-top: 25px;
+    width: 100%;
+}
+article{
+    display: inline;
+    
+}
+
+/* utils*/
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+}
+.d-flex{
+    display: flex;
+}
+ /*header*/
+ 
+ header{
+     height: 80px;
+     background-color: #FF6900;
+     width: 100%;
+     position: fixed;
+     top: 0;
+     left:0;
+     z-index: 1;
+} 
+/* main*/ 
+.row{
+    display: flex;
+    width: 100%;  
+}
+.column{
+    width: calc(100% / 3);
+}
+.relativ{
+    position: relative;
+}
+.red{
+    position: absolute;
+    bottom: 100px;
+    color: #ffff;
+    padding: 2px 2px;
+    background-color: red;
+
+}
+.green{
+    position: absolute;
+    background-color: green;
+    bottom: 100px;
+    left: 35px;
+    color: #ffff;
+    padding: 2px 2px;
+}
+.green-last{
+    position: absolute;
+    bottom: 100px;
+    color: #ffff;
+    padding: 2px 2px;
+    background-color: green;
+}
+.heart{
+    background-color: #ffff;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: large;
+    padding: 5px 5px;
+    font-size: 30px;
+}s
