@@ -55,6 +55,7 @@ article{
      top: 0;
      left:0;
      z-index: 1;
+     box-shadow: 0 0 3px;
 } 
 /* main*/ 
 .row{
@@ -64,7 +65,7 @@ article{
 .column{
     width: calc(100% / 3);
 }
-.relativ{
+.relative{
     position: relative;
 }
 .red{
@@ -112,6 +113,10 @@ article{
 article:hover .heart{
     color: red ;
 }
-article:hover::after .img-hover-first{
-    background-image: url(../img/1b.webp);
+.relative .main-img ,.relative:hover .hover-img{
+    display: block;
+}
+
+.relative  .hover-img, .relative:hover .main-img{
+    display: none;
 }
