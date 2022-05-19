@@ -6,6 +6,7 @@
 }
 body{
     padding-top:  120px; 
+    font-family: sans-serif;
 }
 
 li{
@@ -17,14 +18,13 @@ a{
     color:#ffff ;
 }
 #img-logo{
-    height: 30px;
+    height: 50px;
     width: auto;
 }
 img{
     height: 400px;
     width: 100%;
     padding-right: 10px;
-    padding-bottom: 50px;
     
 }
 nav{
@@ -92,10 +92,26 @@ article{
 }
 .heart{
     background-color: #ffff;
+    content: "\2665";
     position: absolute;
+    color: black;
     top: 10px;
     right: 10px;
     font-size: large;
     padding: 5px 5px;
     font-size: 30px;
+    
+}
+.offerta{
+    color: red;
+}
+.scontato{
+    text-decoration: dashed;
+    padding-left:5px ;
+}
+article:hover .heart{
+    color: red ;
+}
+article:hover::after .img-hover-first{
+    background-image: url(../img/1b.webp);
 }
